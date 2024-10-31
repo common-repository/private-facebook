@@ -1,0 +1,204 @@
+div#private-facebook {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+             "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	padding: 20px;
+}
+
+#private-facebook a {
+	cursor:pointer;
+}
+
+#private-facebook h1 {
+	font-weight: 600;
+	font-size:36px;
+	margin-bottom:20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue", sans-serif;
+}
+
+#private-facebook small {
+	font-size: 20px;
+	color: #999;
+}
+
+#private-facebook .information {
+	background:#eee;
+	border:1px solid #ddd;
+	margin-top:20px;
+	padding:20px;
+	font-size:16px;
+	line-height:25px;
+	border-radius:5px;
+	color:#666;
+}
+
+#private-facebook .information p {
+	margin:0px;
+}
+
+#private-facebook strong {
+	font-weight:600;
+}
+
+#private-facebook input.classic {
+	line-height:normal;
+	padding-top:2px;
+	padding-bottom:5px;
+	width:250px;
+}
+
+#private-facebook label input.classic {
+	display:block;
+	margin-top:5px;
+	padding:5px;
+	width:100%;
+}
+
+#private-facebook label {
+	font-weight:bold;
+	padding-left:5px;
+}
+
+#private-facebook label small {
+	font-weight:normal;
+	font-size:13px;
+	float:right;
+	margin-top:6px;
+}
+
+#private-facebook #settings {
+	margin-top:15px;
+	padding-top:10px;
+	border-top:1px solid #ddd;
+}
+
+#private-facebook #settings span {
+	float:left;
+	width: 49%;
+	padding-right: 10px;
+}
+
+#private-facebook #settings .action {
+	margin-top:5px;
+	float:right;
+}
+
+#private-facebook .clear {
+	clear:both;
+	height:1px;
+}
+
+#private-facebook .show-settings {
+	text-align:right;
+}
+
+#private-facebook .hidden {
+	display:none;
+}
+
+#private-facebook .big {
+	padding: 5px 10px;
+	border-radius: 5px;
+	line-height:normal;
+	font-weight:bold;
+}
+
+#private-facebook.restricted {
+	margin:0 auto;
+	margin-top:10%;
+	width: 600px;
+	text-align:center;
+	background: white;
+	border: 1px solid #CCC;
+}
+
+
+#private-facebook #listing table {
+	margin-top: 20px;
+}
+
+#private-facebook #listing table thead th {
+	padding: 6px 14px;
+	font-weight:bold;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue", sans-serif;
+}
+
+#private-facebook a.allow, #private-facebook a.deny:hover {
+	background-color: #5BB75B;
+	background-image: -moz-linear-gradient(top, #62C462, #51A351);
+	background-image: -ms-linear-gradient(top, #62C462, #51A351);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62C462), to(#51A351));
+	background-image: -webkit-linear-gradient(top, #62C462, #51A351);
+	background-image: -o-linear-gradient(top, #62C462, #51A351);
+	background-image: linear-gradient(top, #62C462, #51A351);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#62c462', endColorstr='#51a351', GradientType=0);
+	border-color: #51A351 #51A351 #387038;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color: white;
+}
+
+#private-facebook a.allow:hover, #private-facebook a.deny {
+	background-color: #DA4F49;
+	background-image: -moz-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: -ms-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EE5F5B), to(#BD362F));
+	background-image: -webkit-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: -o-linear-gradient(top, #EE5F5B, #BD362F);
+	background-image: linear-gradient(top, #EE5F5B, #BD362F);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ee5f5b', endColorstr='#bd362f', GradientType=0);
+	border-color: #BD362F #BD362F #802420;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	color:white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+#private-facebook #listing table tfoot th {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+        "Helvetica Neue", sans-serif;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#private-facebook #listing table tfoot th a {
+	display:inline;
+	padding-right:0px;
+	padding-left:0px;
+}
+
+#private-facebook #listing table tbody td {
+	padding: 12px 14px;
+	font-size:15px;
+}
+
+#private-facebook #listing table tbody td small {
+	font-size:14px;
+	margin-top:2px;
+	display:block;
+}
+
+#private-facebook .facebook-connect {
+	margin:0 auto;
+	background:url('images/facebook.png') no-repeat;
+	width:178px;
+	height:38px;
+	display:block;
+	text-decoration:none;
+	margin-top:20px;
+	padding-right: 5px;
+}
+
+#private-facebook a.facebook-connect:hover {
+	background-position:0 -40px;
+}
+
+#private-facebook a.facebook-connect:active {
+	background-position:0 -80px;
+}
